@@ -1,0 +1,59 @@
+:root {
+    --bs-blue: #037bc0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size : 62.5%;
+    /* 1 rem = 10px */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Playfair Display', serif;
+
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+/* //Reescribir colores */
+.text-primary,
+.site-name {
+    color: var(--bs-blue) !important;
+}
+
+/* creating hero section */
+.hero{
+    background-image: url(../img/principal.jpg);
+    content: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
+@media (min-width: 768px){
+    .hero{
+        height: 55rem;
+    }
+}
