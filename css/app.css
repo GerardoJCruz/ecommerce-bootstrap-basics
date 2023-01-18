@@ -95,3 +95,13 @@ h3{
         object-fit: cover;
     }
 }
+
+/* Categoria */
+.categoria img{
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+
+.categoria img:hover{
+    transform: scale(1.2);
+}
