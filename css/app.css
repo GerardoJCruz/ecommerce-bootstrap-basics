@@ -70,6 +70,9 @@ h3{
 .btn-success{
     background-color: var(--bs-green)!important;
 }
+.btn-primary{
+    background-color: var(--bs-blue) !important;
+}
 
 /* creating hero section */
 .hero{
@@ -104,4 +107,9 @@ h3{
 
 .categoria img:hover{
     transform: scale(1.2);
+}
+
+.form-control{
+    padding: 1rem;
+    font-size: 1.6rem;
 }
